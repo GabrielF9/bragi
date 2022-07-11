@@ -1,6 +1,6 @@
 import { render } from 'mjml-react';
 
-import DefaultTemplate from '../../../../components/Templates/DefaultTemplate';
+import DefaultTemplate from 'components/Templates/DefaultTemplate';
 
 export default async function generateEmailWithDefaultTemplate(req, res) {
   const { id } = req.query;
